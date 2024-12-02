@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #310bec;
+  }
+  
+  .captcha-container {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .captcha-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+  }
+  
+  #captchaCanvas {
+    background: #e0e0e0;
+    border: 1px solid #ccc;
+    font-size: 24px;
+  }
+  
+  #refreshCaptcha {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 10px;
+  }
+  
+  #captchaInput {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #verifyCaptcha {
+    background: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  #captchaStatus {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  .name{
+    width: 50px;
+    gap: 10px;
+
+  }
+  .both{
+    color: red;
+    
+  }

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container-box {
+            color: blue;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            background-color: white;
+            height: 45em;
+            align-items: center;
+            border: 2px solid blue;
+            padding: 10px 20px;
+            margin: 500px;
+            width: 450px;
+           
+            position:static;
+            
+        }
+
+        #reg {
+            font-size: large;
+            color: black;
+            font: 2em sans-serif;
+            font-weight: bolder;
+        }
+
+        .txt-box {
+            width: 200px;
+            height: 25px;
+            font-size: 1em;
+            padding: 5px;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+
+        .box {
+            display: flex;
+            gap: 10px;
+            justify-content: space-evenly;
+        }
+
+        select {
+            padding: 0px;
+            font-size: 15px;
+        }
+        .pic{
+            position: relative;
+            left: 170px;
+
+        }    
+        #box{
+            position: relative;
+            left: 23px;
+        }
+        </style>
+  
+</head>
+<body>
+    
+    <div class="container-box">
+        <div id="reg">Registration Form</div>
+        <div class="pic">
+            <img src="OIP.jpeg" alt="" style="height:10em;">
+            <br>
+            <input type="file">
+
+        </div>
+        <div>Name:<br><input class="txt-box" type="text" placeholder="Enter the your name"></div>
+        <div>Email:<br><input class="txt-box" type="email" placeholder="Enter the your Gmail"></div>
+        <div>Password <br><input class="txt-box" type="password" placeholder="Enter the password"></div>
+       
+        <div>Redg Number:<br><input class="txt-box" type="text" placeholder="Enter the your Redg number"></div>
+        <div>DOB :<br><input style="width: 16em; height: 2em;" type="date"></div>
+        <div>Course: <br><input type="radio">java
+            <input type="radio">React js
+            <input type="radio">Python
+            <input type="radio">html<br>
+            <input type="radio">DSA
+            <input type="radio">PHB
+            <input type="radio">CSS
+            <input type="radio">Angular js</div>
+        <div class="box">
+          
+            <div>
+                Gender:<br>
+                <select>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div>
+                Country:<br>
+                <select>
+                    <option>Select</option>
+                    <option>India</option>
+                    <option>UK</option>
+                    <option>USA</option>
+                    <option>Russia</option>
+                    <option>Britain</option>
+                </select>
+            </div>
+        </div>
+        <br>
+       <button>Submit</button>
+    </div>
+    
+</body>
+</html>
